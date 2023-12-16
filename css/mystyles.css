@@ -1,6 +1,70 @@
-h1{
-    font-family: 'Times New Roman', Times, serif;
+#custom-anchor {
+    display: block;
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #4CAF50; /* Anchor background color */
+    color: white; /* Anchor text color */
+    text-decoration: none;
 }
-.diffback{
-    background-color: rgb(70, 100, 200) !important;
+
+ol {
+    color: #333; /* Ordered list text color */
+}
+
+ul {
+    color: #777; /* Unordered list text color */
+    list-style-type: square; /* Custom list style */
+}
+
+img {
+    max-width: 100%; /* Responsive image */
+    height: auto;
+    margin-top: 20px;
+}
+
+iframe {
+    width: 100%;
+    height: 400px;
+    margin-top: 20px;
+}
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f0f0f0;
+    color: #333;
+}
+
+/* Style for the main heading */
+h1 {
+    font-family: 'Helvetica', sans-serif;
+    color: #000701; 
+    margin-bottom: 20px;
+}
+
+/* Style for paragraphs */
+.color {
+    font-family: 'Georgia', serif;
+    line-height: 1.6;
+    margin-bottom: 15px;
+}
+
+/* Style for links */
+.link {
+    color: #0066cc; 
+    text-decoration: none;
+    position:fixed;
+    right: 10px;
+    top: 10px;
+}
+
+/* highlight in yellow  */
+.highlight {
+    background-color: #373736; 
+    padding: 10px;
+    border: 1px solid #e6e6e6;
+    border-radius: 5px;
+    margin-bottom: 15px;
+}
+.mainpage{
+    color: black;
+    font-weight: bold;
 }
